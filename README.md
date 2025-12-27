@@ -1,6 +1,6 @@
 # Deposit Slips
 
-*Browser-Based Deposit Slip Generator*
+Browser-Based Deposit Slip Generator
 
 A browser-based application for generating accurate, print-ready bank deposit slips from imported deposit data.
 
@@ -20,18 +20,19 @@ The MVP is intentionally limited to validate the core workflow.
 
 ### Included in MVP
 
-**Deposit Data**
+#### Deposit Data**
 
 - Upload a CSV file containing deposit line items
 - Manual entry and editing of deposits
 - Support for:
-   - Checks
-   - Cash
-   - Coin
-   - Cash back
+  - Checks
+  - Cash
+  - Coin
+  - Cash back
 - Validation of calculated totals
 
-**Slip Format**
+#### Slip Format
+
 - Single, user-defined slip format
 - Fixed paper size
 - Single-sided layout
@@ -39,19 +40,23 @@ The MVP is intentionally limited to validate the core workflow.
 - Font and font size selection
 - Live preview of rendered output
 
-**Output**
+#### Output
+
 - Print-ready PDF generation
 - Plain paper printing
 - Overflow handling by page break
 
-**Persistence**
+#### Persistence
+
 - Save and reload:
-   - Deposits
-   - Slip formats
+  - Deposits
+  - Slip formats
 - All data stored per user account
 
 ## Roadmap Snapshot
+
 ### Phase 2
+
 - Drag-and-drop layout editor
 - Background image support
 - Import presets
@@ -59,6 +64,7 @@ The MVP is intentionally limited to validate the core workflow.
 - Multi-format support
 
 ### Phase 3
+
 - Duplex printing logic
 - Printer profiles
 - Accounting system integrations
