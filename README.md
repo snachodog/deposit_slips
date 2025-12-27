@@ -20,7 +20,7 @@ The MVP is intentionally limited to validate the core workflow.
 
 ### Included in MVP
 
-#### Deposit Data**
+#### Deposit Data\*\*
 
 - Upload a CSV file containing deposit line items
 - Manual entry and editing of deposits
@@ -52,6 +52,25 @@ The MVP is intentionally limited to validate the core workflow.
   - Deposits
   - Slip formats
 - All data stored per user account
+
+## Development
+
+### Tooling
+
+- **Formatting:** Prettier (`npm run format` to check, `npm run format:write` to apply changes)
+- **Linting:** ESLint (`npm run lint`)
+- **Git hooks:** [pre-commit](https://pre-commit.com) running whitespace checks, YAML/JSON validation, Prettier, and ESLint
+
+### Getting started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Install Git hooks:
+   ```bash
+   npx pre-commit install
+   ```
 
 ## Roadmap Snapshot
 
